@@ -14,9 +14,11 @@
 	width: 100px;
 	padding-left: 0px;
 	margin: 0px;
-	display: block;
-	position: fixed;
+	display: inline-block;
 	height: 100%;
+	position: fixed;
+	left:0px;
+	top:0px;
 
 
 }
@@ -44,7 +46,8 @@
 	padding-right: 25px;
 	display: inline-block;
 	width: 20%;
-	
+	position: absolute;
+
 }
 #rightside{
 	margin-left: 0px;
@@ -53,10 +56,19 @@
 	padding-right: 10px;
 	background-color: green;
 	float: right;
-	width: 50px;
-	height: 100%;
-	display: block;
+	width: 75px;
+	height: 700px;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
 }
 #leftlist{
 	text-align: right;
+}
+#rightverticle{
+	-webkit-transform: rotate(90deg);
+	margin-top: 100px;
 }
