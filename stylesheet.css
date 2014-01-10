@@ -19,6 +19,7 @@
 	position: fixed;
 	left:0px;
 	top:0px;
+	border-right: 1px solid #eee;
 
 
 }
@@ -29,6 +30,7 @@
 	margin-right: 0px;
 	padding-right: 125px;
 	width: 35%;
+	border-right: 1px solid #eee;
 
 }
 #logobox{
@@ -54,7 +56,6 @@
 	margin-right: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: green;
 	float: right;
 	width: 75px;
 	height: 700px;
@@ -64,6 +65,8 @@
 	position: fixed;
 	right: 0px;
 	top: 0px;
+	border-left: 1px solid #eee;
+	padding-right: 25px;
 }
 #leftlist{
 	text-align: right;
@@ -71,4 +74,63 @@
 #rightverticle{
 	-webkit-transform: rotate(90deg);
 	margin-top: 100px;
+}
+h1{
+	font-size: 35px;
+	font-family: 'freight-sans-pro';
+	color: #acacac;
+	font-weight: 100;
+}
+p, blockquote{
+	font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+	color:#4d4d4d;
+	font-size: 18px;
+}
+article p{
+	color: #797979;
+	text-decoration: none;
+	font-size: 14px;
+}
+article h4{
+	font-family: 'freight-sans-pro';
+	font-weight: 700;
+	font-size: 14px;
+	color: #797979;
+}
+article h3{
+	font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+	font-size: 21px;
+	color: #797979;
+}
+.title{
+	color:#000;
+	font-weight: 700;
+	font-family: 'freight-sans-pro';
+	font-size: 40px;
+	line-height: 39px;
+	margin-bottom: 10px;
+}
+div h2{
+	color: #1a8ece;
+	font-weight: 800;
+	font-family: 'freight-sans-pro';
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+#leftlist p{
+	font-size: 15px;
+	color: #acacac;
+	line-height: 30px;
+}
+#mainarticle{
+	border-bottom: 1px solid #eee;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#symbol{
+	height:25px;
+	width: 25px;
+	border: 3px solid white;
+	box-shadow: 0 0 0 5px black;
+	border-radius: 100%;
 }
