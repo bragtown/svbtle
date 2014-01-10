@@ -1,0 +1,31 @@
+.logo{
+	height:25px;
+	width: 25px;
+	border-radius: 100%;
+	border: 3px solid white;
+	box-shadow: 0 0 0 5px black;
+	background-color: black;
+	float:right;
+}
+#leftside{
+	position: fixed;
+	display: inline-block;
+	width:125px;
+	height:100%;
+	float:left;
+	background-color: blue;
+	text-align: right;
+	padding-right: 20px	;
+
+
+}
+#main{
+	display: inline-block;
+	width: 550px;
+	position: relative;
+	padding-left: 125px;
+	padding-right: 125px; 
+	margin-left:125px;
+	background-color: red;
+
+}
